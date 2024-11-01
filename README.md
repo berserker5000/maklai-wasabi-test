@@ -21,12 +21,18 @@ No modules.
 
 | Name | Type |
 |------|------|
+| [aws_iam_policy.user_bucket_policies](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/resources/iam_policy) | resource |
 | [aws_iam_user.users](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/resources/iam_user) | resource |
+| [aws_iam_user_policy_attachment.user_policy_attachment](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/resources/iam_user_policy_attachment) | resource |
 | [aws_s3_bucket.data_buckets](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/resources/s3_bucket) | resource |
 | [aws_s3_bucket_policy.combined_policy](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/resources/s3_bucket_policy) | resource |
+| [aws_s3_bucket_public_access_block.block_public_access](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/resources/s3_bucket_public_access_block) | resource |
 | [aws_iam_policy_document.combined_policy_doc](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/data-sources/iam_policy_document) | data source |
+| [aws_iam_policy_document.deny_insecure_transport](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/data-sources/iam_policy_document) | data source |
+| [aws_iam_policy_document.require_latest_tls](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/data-sources/iam_policy_document) | data source |
 | [aws_iam_policy_document.ro_policy_doc](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/data-sources/iam_policy_document) | data source |
 | [aws_iam_policy_document.rw_policy_doc](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/data-sources/iam_policy_document) | data source |
+| [aws_iam_policy_document.user_policy](https://registry.terraform.io/providers/hashicorp/aws/5.74.0/docs/data-sources/iam_policy_document) | data source |
 
 ## Inputs
 
